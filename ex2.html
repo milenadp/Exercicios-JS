@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Revenda de Veículos JS.</title>
+    <link href="estilo.css" rel="stylesheet">
+</head>
+
+<body>
+    <form class="tela" action="" method="post">
+        <h3>Revenda de Veículos JS</h3>
+        <p style="display: inline;">Veículo: </p>
+        <input placeholder="Veiculo" type="text" id="veiculo" autofocus><br><br>
+        <p style="display: inline;">Preço: </p>
+        <input placeholder="Preço (R$)" id="preco" type="text"><br><br>
+        <button type="button" onclick="promocaoVeiculo(promocao, valor)">Ver Promoção</button><br><br>
+        <p id="promocao" disabled size=50><br/><br/></p>
+        <p id="valor" disabled size=50></p>
+        </div>
+
+        <!-- Scripts -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        <script src="sites.js"></script>
+
+</body>
+
+</html>

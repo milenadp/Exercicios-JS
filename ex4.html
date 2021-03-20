@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lan House JS.</title>
+    <link href="estilo.css" rel="stylesheet">
+</head>
+
+<body>
+    <form class="tela" action="" method="post">
+        <h3>Lan House JS</h3>
+        <p style="display: inline;">Valor por 15 min de uso (R$): </p>
+        <input placeholder="Valor" type="text" id="valor" autofocus><br><br>
+        <p style="display: inline;">Tempo de Uso do Cliente: </p>
+        <input placeholder="Tempo" id="tempo" type="text"><br><br>
+        <button type="button" onclick="valorLanHouse()">Calcular Valor a pagar</button><br><br>
+        <p id="val" disabled size=50></p>
+    </form>
+
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="sites.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Vídeo Locadora JS.</title>
+    <link href="estilo.css" rel="stylesheet">
+</head>
+
+<body>
+    <form class="tela" action="" method="post">
+        <h3>Vídeo Locadora JS</h3>
+        <p style="display: inline;">Título do filme: </p>
+        <input placeholder="Piratas do Caribe" type="text" id="titulo" autofocus><br><br>
+        <p style="display: inline;">Duração(min): </p>
+        <input placeholder="108" id="duracao" type="number"><br><br>
+        <button type="button" onclick="converter()">Converter em horas e minutos</button><br><br>
+        <p id="filme" disabled size=50><br/><br/></p>
+        <p id="dur" disabled size=50></p>
+    </form>
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="sites.js"></script>
+
+</body>
+
+</html>

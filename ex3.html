@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Restaurante JS.</title>
+    <link href="estilo.css" rel="stylesheet">
+</head>
+<body>
+        <form class="tela" action="" method="post">
+            <h3>Restaurante JS</h3>
+            <p style="display: inline;">Buffet por Quilo R$: </p>
+            <input placeholder="" type="text" id="buffet" autofocus><br><br>
+            <p style="display: inline;">Comsumo do Cliente (g): </p>
+            <input placeholder="" id="gramas" type="text"><br><br>
+            <button type="button" onclick="converterRestaurante()">Calcular preço</button><br><br>
+            <p id="consumo" disabled size=50></p>
+        </form>
+
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="sites.js"></script>
+
+</body>
+
+</html>
