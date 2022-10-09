@@ -1,9 +1,9 @@
-.tela {
-    text-align: center;
+.tela {   
     margin: auto;
-    padding: 20px;
-    width: 400px;
+    text-align: left;
+    padding: 40px;
+    width: 450px;
     height: 300px;
     margin-top: 100px;
-    background-color: cadetblue;
+    background-color: red;
 }
